@@ -1,2 +1,132 @@
-my link in bio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Brenda's Links</title>
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One|Monda" rel="stylesheet">
+  <style>
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #ffffff;
+      opacity: 1;
+      background-image: radial-gradient(circle at center center, #d6fdff, #ffffff), repeating-radial-gradient(circle at center center, #d6fdff, #d6fdff, 10px, transparent 20px, transparent 10px);
+      background-blend-mode: multiply;
+      display: flex;
+      justify-content: center;
+    }
+    .banner-image {
+      width: 178px;
+      height: 178px;
+      object-fit: cover;
+      border-radius: 128px 60px;
+      box-shadow: 10px 10px 52px 0px rgba(127,63,245,1);
+    }
 
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 80px 148px / 80px 148px;
+      object-fit: cover;
+    }
+
+    .name {
+      color: #33272a;
+      display: flex;
+      justify-content: center;
+      box-shadow: 10px 10px 52px 0px rgba(242,198,230,1);
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: 25px
+    }
+    .social-icons a {
+      color: #594a4e;
+      text-decoration: none
+    }
+
+    .link {
+      background-color: #ff8ba7;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link a {
+      color: #faeee7;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+      font-family: 'Monda', sans-serif;
+      font-size: 30px;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+      box-shadow: 10px 10px 52px 0px rgba(127,63,245,1);
+      font-family: 'Monda', sans-serif;
+      font-size: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="items">
+    <div class="banner">
+      <img src="thumbnails/IMG_9176.jpeg" alt="Bre's Photo" class="banner-image">
+    </div>
+
+    <div class="name">
+      <h1>Brenda Reyes</h1>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://github.com/brendareyes-techprep" target="_blank">
+        GitHub
+      </a>
+
+      <a href="https://www.linkedin.com/in/brenda-reyes-b855b2b7/" target="_blank">
+        LinkedIn
+      </a>
+
+      <a href="https://www.instagram.com/catwangbrenda/" target="_blank">
+        Instagram
+      </a>
+
+      <a href="https://www.instagram.com/rain_thehuskyy/" target="_blank">
+        Rain's Instagram
+      </a>
+    </div>
+
+    <div class="link">
+      <img class="thumbnail"
+        src="thumbnails/doge.jpg">
+
+      <a target="_blank" href="https://www.pawtracks.com/getting-started/husky-training/#:~:text=Training%20your%20husky%20depends%20on,generous%20with%20praise%20and%20affection.">How to Raise a Husky.</a>
+    </div>
+    <div class="link">
+      <img class="thumbnail" src="thumbnails/happy.jpeg">
+
+      <a target="_blank" href="https://www.healthline.com/health/how-to-be-happy">Happier Habits to Pick Up.</a>
+    </div>
+    <div class="link"> 
+      <img class="thumbnail"
+        src="thumbnails/shoes.jpeg">
+
+      <a target="_blank" href="https://www.esquire.com/style/mens-fashion/a34863534/essential-sneakers-for-sneaker-collection/">How to Start Your Shoe Collection.</a>
+    </div>
+  </div>
+</body>
+
+</html>
